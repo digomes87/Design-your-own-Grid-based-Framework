@@ -1,5 +1,5 @@
 /* Grid framework using floats */
-/* Version: 0.004 */
+/* Version: 0.005 */
 
 /* #region globals */
 
@@ -128,14 +128,18 @@ a {
 
 /* #region pictures */
 
+.pic-cover,
+.pic-contain {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .pic-cover {
 	background-size: cover;
-	background-position: center;
 }
 
 .pic-contain {
-	background-size: cover;
-	background-position: center;
+	background-size: contain;
 }
 
 .pic-card {
