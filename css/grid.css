@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.012 */
+/* Version: 0.013 */
 
 /* #region globals */
 
@@ -11,6 +11,11 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.btn-test {
+	padding: 10px 20px;
+	font-size: 20px;
 }
 
 :root {
