@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.009 */
+/* Version: 0.010 */
 
 /* #region globals */
 
@@ -126,6 +126,10 @@ a {
 
 .padding-center {
 	padding: 25px 50px;
+}
+
+.padding-top {
+	padding-top: 10px;
 }
 
 .text-left {
