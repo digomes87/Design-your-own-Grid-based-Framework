@@ -300,3 +300,39 @@
 		width: 100%;
 	}
 }
+
+:root {
+	c-bg-bleed: #42beda,
+	c-bg-blue: #3776a9,
+	c-bg-yellow:#ffbf00,
+	c-bg-perpul:#a93796,
+	c-bg-black:#140f0a,
+	c-bg-green:#003333,
+
+	c-text-bleed: #42beda,
+	c-text-blue: #3776a9,
+	c-text-yellow:#ffbf00,
+	c-text-perpul:#a93796,
+	c-text-black:#140f0a,
+	c-text-green:#003333,
+}
+
+.font-s-1 {
+	font-size:1em;
+}
+
+.font-s-2 {
+	font-size:0.75em;
+}
+
+.font-s-3 {
+	font-size: 1.5em;
+}
+
+.font-s-4 {
+	font-size: 2em;
+}
+
+.padding-center {
+	padding: 25px 50px;
+}
