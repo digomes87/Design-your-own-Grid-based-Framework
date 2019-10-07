@@ -1,5 +1,5 @@
 /* Grid framework using floats */
-/* Version: 0.006 */
+/* Version: 0.007 */
 
 /* #region globals */
 
@@ -170,6 +170,11 @@ a {
 	box-shadow: 0 0 10px #00000067;
 	color: white;
 	font-size: 1.1rem;
+}
+
+.button:hover {
+	background: #7e7e7e;
+	border-color: #7e7e7e;
 }
 
 .button-blue {
