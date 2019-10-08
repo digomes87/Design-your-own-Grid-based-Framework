@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.019 */
+/* Version: 0.020 */
 /* Use this to link it to your project: */
 /* <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css"> */
 
@@ -249,24 +249,27 @@ a {
 /* #region navbar */
 
 .navbar {
-	display: grid;
-	gap: 10px;
-	justify-content: space-between;
+	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 
 .nav-row {
-	grid-auto-flow: column;
+	flex-direction: row;
 }
 
 .nav-col {
-	grid-auto-flow: row;
+	flex-direction: column;
 }
 
 .nav-item {
-	text-decoration: none;
-	list-style-type: none;
 	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-menu {
+	display: none;
 }
 
 /* #endregion */
@@ -394,7 +397,6 @@ a {
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1024px) {
-
 	.grid-md-1,
 	.grid-md-2,
 	.grid-md-3,
@@ -408,6 +410,14 @@ a {
 	.grid-md-11,
 	.grid-md-12 {
 		grid-column: span 12;
+	}
+
+	.nav-item {
+		display: none;
+	}
+
+	.nav-menu {
+		display: initial;
 	}
 }
 
@@ -438,6 +448,14 @@ a {
 	.grid-sm-11,
 	.grid-sm-12 {
 		grid-column: span 12;
+	}
+
+	.nav-item {
+		display: none;
+	}
+
+	.nav-menu {
+		display: initial;
 	}
 }
 
