@@ -1,5 +1,7 @@
 /* Grid framework using grids */
-/* Version: 0.017 */
+/* Version: 0.021 */
+/* Use this to link it to your project: */
+/* <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css"> */
 
 /* #region globals */
 
@@ -19,8 +21,6 @@
 	padding: 10px 20px;
 	font-size: 20px;
 }
-
-
 
 body,
 header,
@@ -45,10 +45,10 @@ a {
 
 .row {
 	display: grid;
-	grid-template-columns: repeat(12,1fr);
+	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: minmax(10px, auto);
-  gap: 10px;
-  justify-content: space-between;
+	gap: 10px;
+	justify-content: space-between;
 	align-content: flex-start;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -68,7 +68,7 @@ a {
 /* #region fonts */
 
 .ft-s-1 {
-	font-size:0.8rem;
+	font-size: 0.8rem;
 }
 
 .ft-s-2 {
@@ -183,8 +183,8 @@ a {
 }
 
 .button-blue {
- background: #6abfc3;
- border-color: #6abfc3;
+	background: #6abfc3;
+	border-color: #6abfc3;
 }
 
 .button-blue:hover {
@@ -200,6 +200,63 @@ a {
 .button-yellow:hover {
 	background: #d4a866;
 	border-color: #d4a866;
+}
+
+/* #endregion */
+
+/* #region spacing */
+
+.spacing-1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.spacing-2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.spacing-3 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.spacing-4 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.spacing-5 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* #endregion */
+
+/* #region navbar */
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-row {
+	flex-direction: row;
+}
+
+.nav-col {
+	flex-direction: column;
+}
+
+.nav-item {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-menu {
+	display: none;
 }
 
 /* #endregion */
@@ -327,7 +384,6 @@ a {
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1024px) {
-
 	.grid-md-1,
 	.grid-md-2,
 	.grid-md-3,
@@ -341,6 +397,14 @@ a {
 	.grid-md-11,
 	.grid-md-12 {
 		grid-column: span 12;
+	}
+
+	.nav-item {
+		display: none;
+	}
+
+	.nav-menu {
+		display: initial;
 	}
 }
 
@@ -371,6 +435,14 @@ a {
 	.grid-sm-11,
 	.grid-sm-12 {
 		grid-column: span 12;
+	}
+
+	.nav-item {
+		display: none;
+	}
+
+	.nav-menu {
+		display: initial;
 	}
 }
 
