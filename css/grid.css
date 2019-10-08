@@ -162,11 +162,11 @@ a {
 
 .pic-photo {
 	height: 50px;
+	border-radius: 50%;
 }
 
 .pic-card {
 	height: 250px;
-	border-radius: 50px;
 }
 
 .big-picture {
