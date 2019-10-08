@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.018 */
+/* Version: 0.019 */
 /* Use this to link it to your project: */
 /* <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css"> */
 
@@ -242,6 +242,31 @@ a {
 .spacing-5 {
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+
+/* #endregion */
+
+/* #region navbar */
+
+.navbar {
+	display: grid;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-row {
+	grid-auto-flow: column;
+}
+
+.nav-col {
+	grid-auto-flow: row;
+}
+
+.nav-item {
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
 }
 
 /* #endregion */
