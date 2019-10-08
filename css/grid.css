@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.010 */
+/* Version: 0.014 */
 
 /* #region globals */
 
@@ -11,6 +11,11 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.btn-test {
+	padding: 10px 20px;
+	font-size: 20px;
 }
 
 :root {
@@ -65,6 +70,7 @@ a {
 	margin-bottom: 5px;
 	/* margin-top: 5px; */
 }
+
 
 .no-pad {
 	padding-left: 0;
@@ -121,6 +127,10 @@ a {
 
 .padding-center {
 	padding: 25px 50px;
+}
+
+.padding-top {
+	padding-top: 18px;
 }
 
 .text-left {
