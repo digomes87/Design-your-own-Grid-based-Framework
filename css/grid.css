@@ -1,15 +1,17 @@
-/* Grid framework using grids */
-/* Version: 0.021 */
-/* Use this to link it to your project: */
-/* <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css"> */
+/* 
+Grid framework using grids
+Version: 0.021
+Use this to link it to your project:
+<link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css">
+*/
 
 /* #region globals */
 
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
