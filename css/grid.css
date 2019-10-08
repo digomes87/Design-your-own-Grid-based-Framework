@@ -1,5 +1,5 @@
 /* Grid framework using grids */
-/* Version: 0.015 */
+/* Version: 0.016 */
 
 /* #region globals */
 
@@ -166,6 +166,7 @@ a {
 
 .pic-card {
 	height: 250px;
+	border-radius: 50px;
 }
 
 .big-picture {
