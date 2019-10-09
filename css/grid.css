@@ -109,47 +109,47 @@ a {
 /* #region color */
 
 .f-c-red {
-	color: rgb(216, 25, 25)
+	color: rgb(216, 25, 25);
 }
 
 .f-c-blue {
-	color: rgb(51, 51, 170)
+	color: rgb(51, 51, 170);
 }
 
 .f-c-green {
-	color: rgb(52, 153, 52)
+	color: rgb(52, 153, 52);
 }
 
 .f-c-yellow {
-	color: rgb(184, 184, 43)
+	color: rgb(184, 184, 43);
 }
 
 .f-c-black {
-	color: rgb(0, 0, 0)
+	color: rgb(0, 0, 0);
 }
 
 .f-c-white {
-	color: rgb(255, 255, 255)
+	color: rgb(255, 255, 255);
 }
 
 .f-c-purple {
-	color: rgb(143, 65, 206)
+	color: rgb(143, 65, 206);
 }
 
 .f-c-gray {
-	color: rgb(129, 129, 129)
+	color: rgb(129, 129, 129);
 }
 
 .f-c-aqua {
-	color: rgb(37, 204, 226)
+	color: rgb(37, 204, 226);
 }
 
 .f-c-blood {
-	color: rgb(131, 33, 33)
+	color: rgb(131, 33, 33);
 }
 
 .f-c-pink {
-	color: rgb(219, 70, 169)
+	color: rgb(219, 70, 169);
 }
 
 /* #endregion */
@@ -157,47 +157,47 @@ a {
 /* #region background */
 
 .b-c-red {
-	background-color: rgb(216, 25, 25)
+	background-color: rgb(216, 25, 25);
 }
 
 .b-c-blue {
-	background-color: rgb(51, 51, 170)
+	background-color: rgb(51, 51, 170);
 }
 
 .b-c-green {
-	background-color: rgb(52, 153, 52)
+	background-color: rgb(52, 153, 52);
 }
 
 .b-c-yellow {
-	background-color: rgb(184, 184, 43)
+	background-color: rgb(184, 184, 43);
 }
 
 .b-c-black {
-	background-color: rgb(0, 0, 0)
+	background-color: rgb(0, 0, 0);
 }
 
 .b-c-white {
-	background-color: rgb(255, 255, 255)
+	background-color: rgb(255, 255, 255);
 }
 
 .b-c-purple {
-	background-color: rgb(143, 65, 206)
+	background-color: rgb(143, 65, 206);
 }
 
 .b-c-gray {
-	background-color: rgb(129, 129, 129)
+	background-color: rgb(129, 129, 129);
 }
 
 .b-c-aqua {
-	background-color: rgb(37, 204, 226)
+	background-color: rgb(37, 204, 226);
 }
 
 .b-c-blood {
-	background-color: rgb(131, 33, 33)
+	background-color: rgb(131, 33, 33);
 }
 
 .b-c-pink {
-	background-color: rgb(219, 70, 169)
+	background-color: rgb(219, 70, 169);
 }
 
 /* #endregion */
@@ -1484,7 +1484,6 @@ a {
 	align-self: flex-end;
 }
 
-
 /* #endregion */
 
 /* #region pictures */
@@ -1746,7 +1745,6 @@ a {
 }
 
 @media only screen and (max-width: 1366px) {
-
 	.grid-lg-1,
 	.grid-lg-2,
 	.grid-lg-3,
@@ -1764,7 +1762,6 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-
 	.grid-md-1,
 	.grid-md-2,
 	.grid-md-3,
@@ -1782,7 +1779,6 @@ a {
 }
 
 @media only screen and (max-width: 720px) {
-
 	.grid-sm-1,
 	.grid-sm-2,
 	.grid-sm-3,
